@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { addTask, removeTask } from "./features/taskSlice";
+import { addTask } from "./features/taskSlice";
 import Card from "./components/Card";
 
 function App() {
